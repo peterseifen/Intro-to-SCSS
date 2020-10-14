@@ -1,0 +1,9 @@
+$colors: (
+  primary: #45a29e,
+  primary-light: #66fcf1,
+);
+
+@function color($color-name) {
+  @return map-get($colors, $color-name);
+}
+$mainFont: "Josefin Sans", sans-serif;
